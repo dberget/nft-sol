@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useState } from 'react';
 import {
   useGoogleReCaptcha
 } from 'react-google-recaptcha-v3';
@@ -33,9 +33,9 @@ export const RecaptchaButton = ({
     setValidating(false)
   }, []);
 
-  return <button
+  return <a
     type="button"
-    className="text-black font-bold text-lg cursor-pointer"
+    className="rainbow-button"
     disabled={disabled}
-    onClick={handleReCaptchaVerify}>{validating ? 'Validating you are not a bot...' : children}</button>;
+    onClick={handleReCaptchaVerify}>{validating ? 'Validating you are not a bot...' : children}</a>;
 };

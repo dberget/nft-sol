@@ -1,31 +1,23 @@
 {
-  "name": "TEST",
-  "symbol": "TSTX",
-  "description": "TEST",
-  "seller_fee_basis_points": 500,
+  "name": "Violet",
+  "symbol": "ROYGBIV",
+  "description": "puts the V in ROYGBIV",
+  "seller_fee_basis_points": 200,
   "image": "image.png",
-  "external_url": "https://yourwebsite.com/details/0",
+  "external_url": "",
   "attributes": [
     {
-      "value": "United States of America",
-      "trait_type": "COUNTRY"
+      "value": "Violet",
+      "trait_type": "Color"
     },
     {
-      "value": "1790",
-      "trait_type": "FOUNDATION"
-    },
-    {
-      "value": "George Washington",
-      "trait_type": "NAMED FOR"
-    },
-    {
-      "value": "680K+",
-      "trait_type": "POP"
+      "value": "#8f00ff",
+      "trait_type": "HEX"
     }
   ],
   "collection": {
-    "name": "OGs",
-    "family": "Solana Candy Factory"
+    "name": "ROYGBIV",
+    "family": "Solana Colors"
   },
   "properties": {
     "files": [
@@ -38,7 +30,7 @@
     "creators": [
       {
         "share": 100,
-        "address": "EZtysjsfwbRShJzAXZkHsj3PgUVrpSa1BzCqA43QFfCU"
+        "address": "GA1imvRXfhvWnPeSYyTxzB6WsKjiPwwpDJHwmcyThmez"
       }
     ]
   }

@@ -3,7 +3,6 @@ import Head from 'next/head'
 import { Toaster } from 'react-hot-toast';
 import { useWallet } from "@solana/wallet-adapter-react";
 import Header from '../components/header';
-import Footer from '../components/footer';
 import useWalletNfts from '../hooks/use-wallet-nfts';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -17,7 +16,7 @@ const MyNfts = () => {
       <main className="p-5">
         <Toaster />
         <Head>
-          <title>Solana Candy Factory - My NFTs</title>
+          <title>Solana Colors - My Colors</title>
           <meta name="description" content="Solana blockchain candy machine app boilerplate on top of Metaplex Candy Machine. NextJS, Tailwind, Anchor, SolanaLabs.React, dev/mainnet automation scripts." />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -48,7 +47,6 @@ const MyNfts = () => {
         </div>
 
       </main>
-      <Footer />
     </div>
   );
 };
