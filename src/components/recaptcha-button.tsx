@@ -10,7 +10,6 @@ export const RecaptchaButton = ({
   onClick,
   actionName = 'mint',
   children = 'Click to mint',
-  disabled
 }: any) => {
   const [validating, setValidating] = useState(false)
   const { executeRecaptcha } = useGoogleReCaptcha();
@@ -36,6 +35,5 @@ export const RecaptchaButton = ({
   return <a
     type="button"
     className="rainbow-button"
-    disabled={disabled}
     onClick={handleReCaptchaVerify}>{validating ? 'Validating you are not a bot...' : children}</a>;
 };
