@@ -1,10 +1,9 @@
 {
   "name": "Red",
   "symbol": "ROYGBIV",
-  "description": "Puts the R in ROYGBIV",
+  "description": "Can you paint with all the colors of the ROYGBIV",
   "seller_fee_basis_points": 200,
   "image": "image.png",
-  "external_url": "",
   "attributes": [
     {
       "value": "Red",
@@ -16,7 +15,7 @@
     }
   ],
   "collection": {
-    "name": "ROYGBIV",
+    "name": "ROYGBIV 1",
     "family": "Solana Colors"
   },
   "properties": {
